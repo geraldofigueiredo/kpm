@@ -1,0 +1,25 @@
+# Binary output
+kpm
+dist/
+
+# Go build cache & test artifacts
+*.test
+*.out
+coverage.html
+coverage.txt
+
+# macOS
+.DS_Store
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Runtime data (user-local, never committed)
+~/.kpm/
+
+# Air live-reload
+tmp/
+.air.toml
